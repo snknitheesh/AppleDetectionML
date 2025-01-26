@@ -1,0 +1,21 @@
+200E_FRCNN_Minne - ( epochs - 200, Model - FRCNN, Data - Minne(images and masks), TimeToTrain - 9:30:12 )
+-- model_199.pth (latest pretrained weight)
+-- results.txt (predicted outputs p.s. Data used for predicted oiutputs are given in the root folder "TestData")
+---------------------------------------------------------------------------------------------------------
+50E_FRCNN_Minne - ( epochs - 50, Model - FRCNN, Data - Minne(images and masks), TimeToTrain - 3:22:47 )
+-- model_49.pth (latest pretrained weight)
+-- results.txt (predicted outputs p.s. Data used for predicted oiutputs are given in the root folder "TestData")
+---------------------------------------------------------------------------------------------------------
+How to predict some own images ?
+---------------------------------------------------------------------------------------------------------
+step1--Run 
+python predict_rcnn.py --data_path path/to/input/images/to/test --output_file path/to/results/folder --weight_file path/to/weight/file  --device cuda --frcnn
+
+Once you run this, you will get a results.txt file created with bounding boxes. 
+---------------------------------------------------------------------------------------------------------
+step2--Run 
+visualisepredictionsrcnn.py file. Before running it, edit the python file with correct results.txt path and path/to/input/images/to/test. 
+---------------------------------------------------------------------------------------------------------
+
+you can also run python file directly if you want to test the data images given in teams. 
+Use the results.txt file for visualisation.

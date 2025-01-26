@@ -1,0 +1,7 @@
+
+train: /home/zozo/workspaces/appledetection_ws/apple_ws/final/data/apple/train
+val: /home/zozo/workspaces/appledetection_ws/apple_ws/final/data/apple/val
+
+nc: 2
+names: ['ripe', 'unripe']
+

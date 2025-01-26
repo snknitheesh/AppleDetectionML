@@ -1,0 +1,10 @@
+
+train: /home/zozo/workspaces/appledetection_ws/apple-data-renamed/train 
+val: /home/zozo/workspaces/appledetection_ws/apple-data-renamed/valid   
+
+# Number of classes 
+nc: 2
+
+# Class names
+names: ['redapple', 'greenapple']
+
