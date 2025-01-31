@@ -39,8 +39,8 @@ The detection pipeline applies **NMS** to filter redundant detections and then a
 
 
 ## Example Results
-![YOLO Detection](images/test2.png)
-![Faster R-CNN Detection](images/test15.png)
+![YOLO Detection](Images/test2.png)
+![Faster R-CNN Detection](Images/test15.png)
 
 ## Future Improvements
 - Fine-tuning YOLO and Faster R-CNN with additional orchard datasets
